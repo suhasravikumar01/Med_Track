@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4faf7">
+  <title>Med_Track — medicine made manageable</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" aria-label="Med Track dashboard"><span class="brand-mark">✚</span><span>Med<span class="brand-light">_Track</span></span></a>
+      <div class="side-label">WORKSPACE</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#dashboard" class="nav-link active" data-page="dashboard"><span class="nav-icon">⌂</span>Dashboard</a>
+        <a href="#medicines" class="nav-link" data-page="medicines"><span class="nav-icon">▤</span>My medicines</a>
+        <a href="#schedule" class="nav-link" data-page="schedule"><span class="nav-icon">◷</span>Medicine schedule</a>
+        <a href="#history" class="nav-link" data-page="history"><span class="nav-icon">↺</span>Medication history</a>
+        <a href="#add" class="nav-link" data-page="add"><span class="nav-icon">＋</span>Add medicine</a>
+      </nav>
+      <div class="sidebar-bottom"><div class="care-card"><span class="care-icon">♡</span><strong>Small steps, better care.</strong><p>Stay on track with your daily routine.</p></div><div class="side-foot">Your health, in one place</div></div>
+    </aside>
+    <main class="main-area">
+      <header class="topbar"><button class="mobile-menu" id="menuToggle" aria-label="Open navigation">☰</button><div class="breadcrumb"><span>Workspace</span><b>/</b><strong id="pageTitle">Dashboard</strong></div><div class="top-actions"><span class="today-chip" id="todayLabel"></span><span class="avatar" aria-hidden="true">M</span></div></header>
+      <div class="content" id="pageContent" aria-live="polite"></div>
+    </main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/storage.js"></script>
+  <script src="js/medicines.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
