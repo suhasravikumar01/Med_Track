@@ -3,7 +3,7 @@
 
 **Med_Track** is a simple C-based application designed to help users organize and manage their daily medication schedules.
 
-The system allows users to add medicines, categorize them based on health conditions such as Thyroid, Diabetes, and Blood Pressure, specify dosage frequency, and manage their medication routines.
+The system allows users ok add medicines, categorize them based on health conditions such as Thyroid, Diabetes, and Blood Pressure, specify dosage frequency, and manage their medication routines.
 
 ## 🎯 Objective
 
