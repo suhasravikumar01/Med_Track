@@ -9,7 +9,7 @@ Open `index.html` directly, or open this folder in VS Code and use Live Server. 
 ## Features
 
 - Dashboard with medicine totals, today's doses, taken count, remaining count, and progress.
-- Add and edit medicine details, custom health conditions, frequencies, and dose times.
+- Add and edit medicine details, custom health conditions, frequencies, and  times.
 - Medicine list organized by health condition, with confirmation before deletion.
 - Date-based schedule with Taken and Skipped actions. Each medicine/date/time combination can only be recorded once.
 - Medication history filtered by date. Deleting a medicine keeps its historical records.
