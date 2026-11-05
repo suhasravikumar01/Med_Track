@@ -7,7 +7,7 @@ The system allows users to add medicines, categorize them based on health condit
 
 ## 🎯 Objective
 
-To simplify daily medicine management by providing an organized way to maintain medicine details and track prescribed medication schedules.
+To simplify d medicine management by providing an organized way to maintain medicine details and track prescribed medication schedules.
 
 ## ✨ Key Features
 
